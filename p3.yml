@@ -1,6 +1,6 @@
 - name: Example of condition
   hosts: all
-  become: true
+  become: tru
   tasks:
     - name: First check file state
       stat:
